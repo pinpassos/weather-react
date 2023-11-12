@@ -1,0 +1,31 @@
+.current_weather {
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+.current_weather_content {
+    min-height: 300px;
+    min-width: 400px;
+}
+
+.empty_result_text {
+    text-align: center;
+    font-size: 32px;
+}
+
+.current_weather_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current_weather_info_content_temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current_weather_info_content_temperature > p {
+    font-size: 48px;
+    font-weight: bold;
+}

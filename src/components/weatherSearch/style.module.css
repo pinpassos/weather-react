@@ -1,0 +1,31 @@
+.current_weather {
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+.weather_search_form {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search_form_label {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.search_form_input {
+    width: 30%;
+    padding: 10px;
+
+    border-color: transparent;
+    border-radius: 14px;
+
+    background-color: #202B3B;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
